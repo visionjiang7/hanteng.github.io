@@ -1,6 +1,15 @@
 # Site navigation links
 
+<<<<<<< HEAD
 - title: 网页设计作品集
+=======
+- title: 教学
+  url: /teaching/
+  excerpt: "含体验式教学及混合式教学"
+  image: 12.jpg
+
+- title: 学生作品集
+>>>>>>> 6cd9625e7d39f005bae6830a9a5c2d9e1ca83704
   url: /portfolio/
   excerpt: "web设计"
   image: 12.jpg
@@ -8,9 +17,22 @@
 - title: 信息可视化作品集
   url: /infovis/
   excerpt: "tableau作品集"
-  image: Portfolio.svg
+  image: 55.gif
 
 - title: 学生笔记
   url: /posts/
   excerpt: 学习心得"
   image: Tower_of_Babel.jpg
+<<<<<<< HEAD
+=======
+
+- title: SDG
+  url: /SDG/
+  excerpt: "可持续发展，含＂生态文明＂倡议"
+  image: 300x200.gif
+
+- title: 联络我
+  url: /contact/
+  excerpt: "联络我"
+  image: Pigeon_post.jpg
+>>>>>>> 6cd9625e7d39f005bae6830a9a5c2d9e1ca83704
