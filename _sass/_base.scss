@@ -11,7 +11,8 @@ body {
 	color: $text-color;
     background-image:
       url('https://visionjiang7.github.io//images/beijing.jpg');
-	background-image-size:cover;
+	background-image-size:100% 100%;
+	background-position: top center；
 	@include font-size(16);
 }
 
