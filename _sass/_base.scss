@@ -10,7 +10,7 @@ body {
 	font-family: $base-font;
 	color: $text-color;
     background-image:
-      url('visionjiang7.github.io/images/beijing.jpg');
+      url('https://visionjiang7.github.io//images/beijing.jpg');
 	background-image-size:cover;
 	@include font-size(16);
 }
