@@ -12,6 +12,7 @@ body {
     background-image:
       url('https://visionjiang7.github.io//images/beijing.jpg');
 	background-image-size:cover;
+	@include font-size(16);
 }
 
 p {
