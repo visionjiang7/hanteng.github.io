@@ -7,7 +7,7 @@ excerpt: "我的可视化作品"
 tags: []
 image: 
   feature:keshihua.gif
-  teaser:keshihua.gif
+  teaser:
 ---
 
 在此展示我的可视化作品集！！
