@@ -6,7 +6,7 @@ modified:
 excerpt: "我的可视化作品"
 tags: []
 image: 
-  feature: keshihua.gif
+  feature:keshihua.gif
   teaser:keshihua.gif
 ---
 
