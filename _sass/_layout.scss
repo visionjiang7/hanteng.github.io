@@ -73,15 +73,15 @@
 			}
 			&:after {
 				width: 0;
-				background-color: $oxfordblue;
+				background: #008000;
 			}
 			&:active:after,
 			&:hover:after {
 				width: 100%;
 			}
 			&:hover {
-				color: $oxfordblue;
-				background-color: $lemon;
+				color: #008000;
+				background-color: #fefefa;
 			}
 		}
 	}
@@ -111,7 +111,7 @@
 			font-weight: 700;
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
-			color: $black;
+			color: #595959;
 			text-transform: uppercase;
 		}
 	}
@@ -154,6 +154,7 @@
 			@include span-columns(11);
 		}
 	}
+	
 	.page-title {
 		@include fill-parent;
 	}
@@ -270,6 +271,7 @@
 		}
 	}
 }
+
 // page header
 .page-feature {
 	@include fill-parent;
@@ -319,7 +321,6 @@
 		}
 	}
 }
-
 /*
    Page footer
    ========================================================================== */
@@ -375,54 +376,54 @@
 
 
 /*
-    Printer Setup
-    ========================================================================== */
- @page {
-   size: A4;
-   margin: 0;
-  }
-  
-  @media print {
-       #masthead, nav, button, html [type=button], .menu-screen {
-          display: none;
-      }
-      html, body {
-         width: 210mm;
-         height: 297mm;
-         margin: 0;
-         padding: 0;
-         border: 1px #D3D3D3 solid;
-         border-radius: 5px;
-         box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-     }
-     #page-wrapper {
-         border: initial;
-         border-radius: initial;
-         width: initial;
-         min-height: initial;
-         box-shadow: initial;
-         background: initial;
-         page-break-after: always;
-         max-width: 190mm;
-         min-height: 250mm;
-         max-height: 256mm;
-         padding: 10mm;
-         margin: 20mm auto;
- 		border: 1px white dotted;
- 		height: 256mm;
- 		outline: 2cm #cbecff solid;
- 	}
- 
- 
- 
- 		
-     p {
- 	    font-size: 0.625rem !important;		
- 	}
- 	h1 {
- 	    font-size: 1rem !important;		
- 	}
- 	h2, h3, h4, h5, h6 {
- 	    font-size: 0.75rem !important;		
- 	}
- }
+   Printer Setup
+   ========================================================================== */
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+    #masthead, nav, button, html [type=button], .menu-screen {
+        display: none;
+    }
+    html, body {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 0;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    #page-wrapper {
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+        max-width: 190mm;
+        min-height: 250mm;
+        max-height: 256mm;
+        padding: 10mm;
+        margin: 20mm auto;
+		border: 1px white dotted;
+		height: 256mm;
+		outline: 2cm #cbecff solid;
+	}
+
+
+
+		
+    p {
+	    font-size: 0.625rem !important;		
+	}
+	h1 {
+	    font-size: 1rem !important;		
+	}
+	h2, h3, h4, h5, h6 {
+	    font-size: 0.75rem !important;		
+	}
+}
