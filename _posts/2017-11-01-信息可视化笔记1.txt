@@ -4,8 +4,8 @@ title:  "可视化课堂笔记"
 date:   2017-11-06 00:00:00 +0800
 categories:tableau note
 image: 
-  teaser: 77.jpg
-  featute: 77.jpg
+  teaser: keshihua.gif
+  featute: 
 ---
 
 
