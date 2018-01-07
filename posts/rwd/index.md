@@ -1,9 +1,9 @@
 ---
 layout: archive
-title: "信息可视化作品笔记"
+title: "note （note）"
 date: 2018-1-1T14:25:45-04:00
 modified:
-excerpt: "我的信息可视化笔记"
+excerpt: "我的网页设计笔记"
 tags: []
 image: 
   feature:1.jpg
@@ -12,7 +12,7 @@ image:
 
 
 <div class="tiles">
-{% for post in site.categories.tableau note %}
+{% for post in site.categories.web note %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles 把所有categories 有 infovis 的列出来-->
