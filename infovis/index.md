@@ -10,7 +10,7 @@ image:
   teaser:feke.png
 ---
 
-![123](https://visionjiang7.github.io/images/fake.png)
+![fake](https://visionjiang7.github.io/images/fake.png)
 
 <div class="tiles">
 {% for post in site.categories.infovis %}
